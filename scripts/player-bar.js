@@ -24,7 +24,7 @@
     const previousSongIndex = currentSongIndex - 1;
     if (previousSongIndex >= album.songs.length) { return; }
 
-    const previousSong = albums.songs[previousSongIndex];
+    const previousSong = album.songs[previousSongIndex];
     player.playPause(previousSong);
   });
 }
